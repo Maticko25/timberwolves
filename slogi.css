@@ -129,3 +129,25 @@ nav a:hover::before{
 	font-size: 14px;
 	color: white;
 }
+#Tabela {
+	width:700px;
+	border-collapse: collapse;
+	cursor: default;
+	margin-top: 30px;
+}
+#Tabela td, #Tabela th {
+	padding: 1px;
+	box-sizing: border-box;
+	border:#000 solid 1px;
+	transition: background-color 2s ease;
+}
+#Tabela th {
+	background-color:#CCC;
+}
+#Tabela tr:nth-child(even) td {
+	background-color:#F7F7F7;
+}
+#Tabela tr:hover td {
+    background-color:#EEE;
+	transition: all 0.5s ease;
+}
