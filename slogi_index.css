@@ -75,20 +75,8 @@ nav a:hover::before{
 	align-items:flex-start;
 }
 #Clanek{
-    width: 700px;
+    width: 950px;
     height: 350px;
-}
-#Sorodno{
-    height: 350px;
-	width: 175px;
-    box-sizing: border-box;
-	align-self: center;
-	background-color: #052345;
-    border-radius: 15px;
-	margin: 10px 0;
-	padding: 15px;
-	box-sizing: border-box;
-	color: white;
 }
 #Noga{
 	width: 950px;
@@ -128,4 +116,10 @@ nav a:hover::before{
 #FacebookTwitter p {
 	font-size: 14px;
 	color: white;
+}
+.SlikaVSorodno{
+	height: 175px;
+	width: 175px;
+	margin-top: 82px;
+
 }
