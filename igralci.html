@@ -9,6 +9,14 @@
 	<meta name="robots" content="index,follow">
 	<link rel="stylesheet" href="slogi_galerija.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+	<link href="./css/lightbox.css" rel="stylesheet">
+	<script src="./js/lightbox-plus-jquery.js"></script>
+	<script>
+    lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true
+    })
+</script>
 </head>
 <body>
 	<div id="GlavniOkvir">
@@ -28,39 +36,29 @@
 		<section id="Vsebina">
 			<article id="Clanek">
 				<h1>Prva postava ekipe Timberwolves</h1>
-				<div class="gallery">
-  <a target="_blank" href="./slike/towns.png">
-    <img src="./slike/towns.png" alt="Karl Anthony Towns">
-  </a>
+<div class="gallery">
+    <a href="./slike/towns.png" data-lightbox="./slike/towns.png" data-title="Karl Anthony Towns"><img alt="Karl Anthony Towns" src="./slike/towns.png"></a>
   <div class="desc">Karl Anthony Towns</div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="./slike/wiggins.png">
-    <img src="./slike/wiggins.png" alt="Andrew Wiggins">
-  </a>
+   <a href="./slike/wiggins.png" data-lightbox="./slike/wiggins.png" data-title="Andrew Wiggins"><img alt="Andrew Wiggins" src="./slike/wiggins.png"></a>
   <div class="desc">Andrew Wiggins</div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="./slike/rose.png">
-    <img src="./slike/rose.png" alt="Derick Rose" width="600" height="400">
-  </a>
+    <a href="./slike/rose.png" data-lightbox="./slike/wiggins.png" data-title="Derick Rose"><img alt="Derick Rose" src="./slike/rose.png"></a>
   <div class="desc">Derick Rose</div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="./slike/covington.png">
-    <img src="./slike/covington.png" alt="Robert Covington" width="600" height="400">
-  </a>
+<a href="./slike/covington.png" data-lightbox="./slike/covington.png" data-title="Robert Covington"><img alt="Robert Covington" src="./slike/covington.png"></a>
   <div class="desc">Robert Covington</div>
 </div>
 
 <div class="gallery">
-  <a target="_blank" href="./slike/saric.png">
-    <img src="./slike/saric.png" alt="Dario Šarić" width="600" height="400">
-  </a>
-  <div class="desc">Dario Šarić</div>
+  <a href="./slike/saric.png" data-lightbox="./slike/saric.png" data-title="Dario Šarić"><img alt="Dario Šarić" src="./slike/saric.png"></a>
+<div class="desc">Dario Šarić</div>
 </div>
 			</article>
 		</section>
